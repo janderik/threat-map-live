@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  threat-map:
+    build: .
+    container_name: threat-map-live
+    ports:
+      - "5000:5000"
